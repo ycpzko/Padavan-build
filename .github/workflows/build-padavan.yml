@@ -37,7 +37,7 @@ jobs:
         sh dl_toolchain.sh
     - name: Build Firmware
       env:
-        TNAME: K2P_nano
+        TNAME: K2P_nano-5.0
       run: |
         cd /opt/rt-n56u/trunk
         sudo ./clear_tree
